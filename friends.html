@@ -1,1 +1,98 @@
-new page
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:08</span>
+      </div>
+      <div class="status-bar__column">
+        <span>64%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-headphones-alt fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link" href="#">
+      <i class="fas fa-info-circle"></i>Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component--xl"
+            src="photos/fruit.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">nolnoa</h4>
+            <!-- <h6 class="user-component__subtitle">text text subtitle</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <span>Channel</span>
+      <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar" src="photos/fruit.png" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Channel</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2</span><i class="fas fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <i class="fas fa-user-circle fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="nav__find-notice"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

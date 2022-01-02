@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* if I apply padding inside .nav and with width 100%,
+  it will not fit in the screen.
+  "box-sizing: border-box;" makes it fits. */
+  background-color: rgb(247, 247, 247);
+  padding: 20px 0px;
+  border-top: 1px solid rgb(232, 232, 232);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav__link {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  right: -12px;
+  top: -18px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__find-notice {
+  position: absolute;
+  right: -8px;
+  top: -12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
