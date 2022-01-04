@@ -20,15 +20,6 @@
   position: absolute;
   right: -12px;
   top: -18px;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: red;
-  color: white;
-  font-size: 13px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .nav__more-notice {
   position: absolute;

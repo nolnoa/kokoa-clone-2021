@@ -1,0 +1,25 @@
+.cog-notice {
+  top: -8px;
+}
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.find-icons__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__icon {
+  padding: 40px 25px 15px;
+  font-size: 20px;
+}
+.find-icons__title {
+  text-align: center;
+  display: table;
+  height: 50px;
+}
+.find-icons__title-name {
+  display: table-cell;
+  vertical-align: middle;
+}
