@@ -2,6 +2,10 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.user-component__column {
+  margin: 10px 0 20px 0;
 }
 .user-component__avatar {
   height: 70px;
@@ -13,12 +17,22 @@
   font-size: 22px;
   font-weight: 600;
 }
+.user-component__title--not-bold {
+  font-weight: 400;
+}
 .user-component__subtitle {
   margin-top: 3px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 17px;
 }
-.user-component--xl {
+.user-component__avatar--xl {
   height: 80px;
   width: 80px;
+}
+.user-component__avatar--sm {
+  height: 60px;
+  width: 60px;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
 }

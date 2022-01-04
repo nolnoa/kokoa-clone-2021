@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KokoaTalk</title>
+    <title>Chats - KokoaTalk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -23,57 +23,30 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <i class="far fa-comment fa-lg"></i>
+          <i class="screen-header__icons--plus fas fa-plus fa-xs"></i>
+        </span>
         <span><i class="fas fa-headphones-alt fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-      <i class="fas fa-info-circle fa-lg"></i>Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="photos/fruit.png"
-          />
+          <img class="user-component__avatar" src="photos/fruit.png" />
           <div class="user-component__text">
             <h4 class="user-component__title">nolnoa</h4>
-            <!-- <h6 class="user-component__subtitle">text text subtitle</h6> -->
+            <h6 class="user-component__subtitle">
+              Please Check My Kokoa Account Info
+            </h6>
           </div>
         </div>
         <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar user-component__avatar--sm"
-            src="photos/fruit.png"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <div class="user-component__column">
-            <span>2</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
       </div>
     </main>
 
@@ -81,13 +54,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user-circle fa-2x"></i>
+            <i class="far fa-user-circle fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <i class="fas fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
