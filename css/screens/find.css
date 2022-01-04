@@ -16,10 +16,17 @@
 }
 .find-icons__title {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+}
+/* .find-icons__title {
+  text-align: center;
   display: table;
   height: 50px;
 }
-.find-icons__title-name {
+.find-icons__title span {
   display: table-cell;
   vertical-align: middle;
-}
+} */
