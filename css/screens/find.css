@@ -1,38 +1,3 @@
-.cog-notice {
-  top: -8px;
-}
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-  margin-bottom: 15px;
-  border-bottom: var(--main-border);
-}
-.find-icons__column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.find-icons__icon {
-  padding: 35px 25px 10px;
-  font-size: 20px;
-}
-.find-icons__title {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 50px;
-}
-/* .find-icons__title {
-  text-align: center;
-  display: table;
-  height: 50px;
-}
-.find-icons__title span {
-  display: table-cell;
-  vertical-align: middle;
-} */
 .recommended-friends {
   color: var(--main-gray-text);
   font-size: 14px;

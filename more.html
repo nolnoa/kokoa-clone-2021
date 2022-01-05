@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - KokoaTalk</title>
+    <title>More - KokoaTalk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -23,9 +23,10 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-headphones-alt fa-lg"></i></span>
         <span>
           <div class="nav__more-notice cog-notice"></div>
           <i class="fas fa-cog fa-lg"></i
@@ -34,7 +35,28 @@
     </header>
 
     <main class="main-screen">
-      <div class="icon-list">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="photos/fruit.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">nolnoa</h4>
+            <div class="user-component__more-phone-number">
+              <h6 class="user-component__subtitle">+82 012 3456 7890</h6>
+              <div class="user-component__warning">
+                <span>!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span><i class="far fa-comment-alt fa-2x"></i></span>
+          <span class="user-component__more-comment-icon">=</span>
+        </div>
+      </div>
+      <div class="icon-list more-icon-upper">
         <div class="icon-list__column">
           <div class="icon-list__icon">
             <i class="fas fa-qrcode fa-lg"></i>
@@ -68,49 +90,37 @@
           </div>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6>Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <h5>Open chats</h5>
-        <h6>Go to Open Chat Home <i class="fas fa-chevron-right fa-xs"></i></h6>
-      </div>
-      <div class="open-post">
-        <div class="open-post__column-left">
-          <h4 class="open-post__title">#Photo</h4>
-          <h5 class="open-post__hashtag">#photo#studio#fruits</h5>
-          <div class="open-post__members">
-            <img src="photos/fruit.png" />
-            <span class="open-post__members-count">802 members</span>
-            <div class="divider"></div>
-            <span class="open-post__members-status">Active</span>
+      <div class="icon-list">
+        <div class="icon-list__column">
+          <div class="icon-list__icon">
+            <i class="fas fa-qrcode fa-lg"></i>
+          </div>
+          <div class="icon-list__title">
+            <span>QR Code</span>
           </div>
         </div>
-        <div class="open-post__column-right">
-          <img src="photos/fruit.png" />
-          <div class="open-post__photo-likes">
-            <i class="fas fa-heart"></i>
-            <span>426</span>
+        <div class="icon-list__column">
+          <div class="icon-list__icon">
+            <i class="far fa-address-book fa-lg"></i>
+          </div>
+          <div class="icon-list__title">
+            <span>Add by<br />Contacts</span>
           </div>
         </div>
-      </div>
-      <div class="open-post">
-        <div class="open-post__column-left">
-          <h4 class="open-post__title">Fruits</h4>
-          <h5 class="open-post__hashtag-two">#fruits #tropical #yammy</h5>
-          <div class="open-post__members">
-            <img src="photos/fruit.png" />
-            <span class="open-post__members-count">455 members</span>
-            <div class="divider"></div>
-            <span class="open-post__members-status">Active</span>
+        <div class="icon-list__column">
+          <div class="icon-list__icon">
+            <i class="fas fa-fingerprint fa-lg"></i>
+          </div>
+          <div class="icon-list__title">
+            <span>Add by ID uialjfw</span>
           </div>
         </div>
-        <div class="open-post__column-right">
-          <img src="photos/fruit.png" />
-          <div class="open-post__photo-likes">
-            <i class="fas fa-heart"></i>
-            <span>224</span>
+        <div class="icon-list__column">
+          <div class="icon-list__icon">
+            <i class="far fa-envelope fa-lg"></i>
+          </div>
+          <div class="icon-list__title">
+            <span>Invite me every</span>
           </div>
         </div>
       </div>

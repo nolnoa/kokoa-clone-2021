@@ -23,7 +23,7 @@
 .user-component__subtitle {
   margin-top: 3px;
   color: var(--main-gray-text);
-  font-size: 17px;
+  font-size: 15px;
 }
 .user-component__avatar--xl {
   height: 80px;
@@ -38,8 +38,33 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: relative;
 }
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__more-phone-number {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.user-component__warning {
+  height: 11px;
+  width: 11px;
+  color: rgb(230, 130, 107);
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  border: 2px solid rgb(230, 130, 107);
+  border-radius: 50%;
+  position: relative;
+  margin-left: 8px;
+}
+.user-component__more-comment-icon {
+  position: absolute;
+  bottom: 2px;
+  right: 6px;
+  font-size: 35px;
 }
