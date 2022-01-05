@@ -22,7 +22,7 @@
 }
 .user-component__subtitle {
   margin-top: 3px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--main-gray-text);
   font-size: 17px;
 }
 .user-component__avatar--xl {
@@ -34,7 +34,7 @@
   width: 60px;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--main-gray-text);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
