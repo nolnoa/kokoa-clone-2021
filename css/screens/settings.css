@@ -1,16 +1,28 @@
-.settings-upper {
-  border-bottom: var(--main-border);
+.settings {
   font-size: 20px;
-  padding-bottom: 20px;
 }
-.settings-upper__list li {
+.settings__list {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 20px 0px;
 }
-.settings-upper__list li:last-child {
+.settings__list:last-child {
   border: none;
 }
-.settings-upper__list i {
+.settings__list i {
   width: 40px;
   opacity: 0.85;
+}
+
+.settings-description {
+  display: flex;
+  justify-content: space-between;
+}
+.settings-description__text {
+  color: var(--main-gray-text);
+  font-size: 18px;
+}
+
+.settings-border {
+  border-bottom: var(--main-border);
+  margin: 20px 0px;
 }

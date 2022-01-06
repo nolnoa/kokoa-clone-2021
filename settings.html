@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - KokoaTalk</title>
+    <title>Settings - KokoaTalk</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,7 +24,9 @@
 
     <header class="alt-screen-header">
       <div class="alt-screen-header__column">
-        <i class="fas fa-chevron-left"></i>
+        <a href="javascript:history.back();">
+          <i class="fas fa-chevron-left"></i>
+        </a>
       </div>
       <div class="alt-screen-header__column">
         <span>Settings</span>
@@ -35,22 +37,69 @@
     </header>
 
     <main class="main-screen">
-      <div class="settings-upper">
-        <ul class="settings-upper__list">
-          <li>
-            <i class="fas fa-bullhorn"></i>
-            <span>Notice</span>
-          </li>
-          <li>
-            <i class="fas fa-flask"></i>
-            <span>Kokoa Lab</span>
-          </li>
-          <li>
-            <i class="fas fa-info-circle"></i>
-            <span>Version</span>
-          </li>
-        </ul>
-      </div>
+      <ul class="settings">
+        <li class="settings__list">
+          <i class="fas fa-bullhorn"></i>
+          <span>Notice</span>
+        </li>
+        <li class="settings__list">
+          <i class="fas fa-flask"></i>
+          <span>Kokoa Lab</span>
+        </li>
+        <li class="settings__list">
+          <div class="settings-description">
+            <div>
+              <i class="fas fa-info-circle"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings-description__text">
+              <span>Latest Version</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="settings-border"></div>
+
+    <main class="main-screen">
+      <ul class="settings">
+        <li class="settings__list">
+          <i class="fas fa-lock"></i>
+          <span>Privacy</span>
+        </li>
+        <li class="settings__list">
+          <i class="far fa-bell"></i>
+          <span>Notifications</span>
+        </li>
+        <li class="settings__list">
+          <i class="far fa-user"></i>
+          <span>Friends</span>
+        </li>
+        <li class="settings__list">
+          <i class="far fa-comment"></i>
+          <span>Chats</span>
+        </li>
+        <li class="settings__list">
+          <i class="fas fa-sliders-h"></i>
+          <span>Display</span>
+        </li>
+        <li class="settings__list">
+          <div class="settings-description">
+            <div>
+              <i class="fas fa-paint-brush"></i>
+              <span>Themes</span>
+            </div>
+            <div class="settings-description__text">
+              <span>Default Theme</span>
+            </div>
+          </div>
+        </li>
+        <li class="settings__list">
+          <i class="fas fa-phone-alt"></i>
+          <span>Call</span>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
