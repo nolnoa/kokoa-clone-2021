@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:08</span>
+      </div>
+      <div class="status-bar__column">
+        <span>64%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header">
+      <div class="alt-screen-header__column">
+        <a href="javascript:history.back();">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="alt-screen-header__column">
+        <span>Tom</span>
+      </div>
+      <div class="alt-screen-header__column">
+        <span><i class="fas fa-search"></i></span>
+        <span id="alt-screen-header__burger"><i class="fas fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chat-timestamp">
+        <div>
+          <span>Thurday, Jan 6, 19:38</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="message">
+      <div class="message-row__receive">
+        <img src="photos/fruit.png" />
+        <span class="message-row__name">Tom</span>
+        <div class="message-row__content">
+          <span class="message__bubble">Hi!</span>
+          <span class="message__time">21:20</span>
+        </div>
+      </div>
+      <div class="message-row__send">
+        <div class="message-row__content">
+          <span class="message__time"></span>
+          <span class="message__bubble"></span>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
