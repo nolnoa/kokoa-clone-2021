@@ -62,7 +62,7 @@
 .message__bubble {
   background-color: white;
   padding: 10px 12px;
-  border-radius: 16px;
+  border-radius: 18px;
   border-top-left-radius: 0;
   margin-right: 5px;
 }
@@ -79,7 +79,67 @@
 .message-row--send .message__bubble {
   background-color: var(--yellow);
   border-top-right-radius: 0;
-  border-top-left-radius: 16px;
+  border-top-left-radius: 18px;
   margin-left: 5px;
   margin-right: 0;
+}
+
+.chat-input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+.chat-input__column {
+  width: 100%;
+}
+.chat-input__plus {
+  width: 55px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-gray-text);
+}
+
+.chat-input__column input[placeholder] {
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(82, 82, 82, 0.05);
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 3px 0;
+  opacity: 0.6;
+}
+.chat-input__column {
+  position: relative;
+}
+.chat-input__emobtn {
+  position: absolute;
+  right: 2px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.chat-input__emobtn i {
+  font-size: 25px;
+  color: var(--main-gray-text);
+}
+.chat-input__emobtn button {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  margin-left: 10px;
+  border: 2px solid rgb(223, 223, 0);
+  background-color: var(--yellow);
+}
+.chat-input__emobtn button i {
+  color: rgb(65, 65, 65);
+  font-size: 22px;
 }
