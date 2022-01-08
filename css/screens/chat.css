@@ -94,9 +94,6 @@
   padding-right: 10px;
 }
 
-.chat-input__column {
-  width: 100%;
-}
 .chat-input__plus {
   width: 55px;
   font-size: 30px;
@@ -119,6 +116,7 @@
 }
 .chat-input__column {
   position: relative;
+  width: 100%;
 }
 .chat-input__emobtn {
   position: absolute;

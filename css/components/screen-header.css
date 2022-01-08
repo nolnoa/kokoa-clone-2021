@@ -24,3 +24,15 @@
   right: -1px;
   top: 3px;
 }
+
+@keyframes spinningCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.spinning-cog i:hover {
+  animation: spinningCog 0.8s ease-in-out forwards;
+}
