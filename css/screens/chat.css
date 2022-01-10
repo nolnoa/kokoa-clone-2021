@@ -160,10 +160,10 @@
 
 .chat-input:focus-within .chat-input__plus {
   transform: translateX(-18px);
-  opacity: 0;
   width: 10px;
 }
-.chat-input:focus-within .chat-input__emobtn {
+.chat-input:focus-within .chat-input__emobtn,
+.chat-input:focus-within .chat-input__plus i {
   opacity: 0;
 }
 .chat-input:focus-within {
@@ -176,7 +176,11 @@
 
 .chat-input,
 .chat-input__plus,
-.chat-input__emobtn,
 .chat-input input {
   transition: all 0.4s ease-in-out;
+}
+
+.chat-input__emobtn,
+.chat-input__plus i {
+  transition: opacity 0.2s ease-in-out;
 }

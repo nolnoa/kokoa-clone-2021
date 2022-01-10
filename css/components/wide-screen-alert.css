@@ -1,0 +1,21 @@
+#wide-screen-alert {
+  position: fixed;
+  top: 0;
+  background-color: var(--yellow);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  #wide-screen-alert {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    display: none;
+  }
+}
