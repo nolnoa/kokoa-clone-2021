@@ -152,11 +152,11 @@
   margin-left: 10px;
   border: 2px solid rgb(223, 223, 0);
   background-color: var(--yellow);
-  text-align: center;
 }
 .chat-input__emobtn button i {
   color: rgb(65, 65, 65);
   font-size: 22px;
+  text-align: center;
 }
 
 .chat-input:focus-within .chat-input__plus {
