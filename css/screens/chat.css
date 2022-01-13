@@ -156,6 +156,7 @@
 .chat-input__emobtn button i {
   color: rgb(65, 65, 65);
   font-size: 22px;
+  text-align: center;
 }
 
 .chat-input:focus-within .chat-input__plus {
